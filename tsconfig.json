@@ -1,0 +1,8 @@
+{
+  "references": [
+    { "path": "apps/vite-app" },
+    { "path": "apps/classic-app" },
+    { "path": "apps/legacy-embroider-app" }
+  ],
+  "include": []
+}

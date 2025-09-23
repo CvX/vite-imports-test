@@ -1,0 +1,10 @@
+{
+  "include": ["./app/**/*"],
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "./app",
+    "outDir": "./declarations",
+    "types": ["ember-source/types"]
+  }
+}
