@@ -12,10 +12,12 @@ export interface MyComponentSignature {
   Element: null;
 }
 
-import Bar from "simple-addon/components/bar";
+import Bar from "simple-addon/components/bar"; // Works after prepack, but no type
+import BarClone from "simple-addon/components/bar.gts"; // Works after prepack, with types
 
 export default <template>
   <Foo />
-  <Bar /> 
+  <Bar @abc="true" /> 
+  <BarClone @abc="hello" />
   {{yield}}
 </template> satisfies TOC<MyComponentSignature>;

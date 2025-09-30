@@ -3,7 +3,9 @@
     { "path": "apps/vite-app" },
     { "path": "apps/classic-app" },
     { "path": "apps/legacy-embroider-app" },
-    { "path": "addons/simple-addon" }
+    { "path": "addons/simple-addon/tsconfig.publish.json" },
+    { "path": "apps/vite-typescript" },
+    
   ],
   "include": []
 }

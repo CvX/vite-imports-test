@@ -1,7 +1,6 @@
 import Component from '@glimmer/component';
 
+// eslint-disable-next-line ember/no-empty-glimmer-component-classes
 export default class Foo extends Component {
-  <template>
-    {{yield}}
-  </template>
+  <template>{{yield}} hi</template>
 }

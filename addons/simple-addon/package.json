@@ -26,7 +26,7 @@
     "lint:types": "glint",
     "start": "vite dev",
     "test": "vite build --mode=development --out-dir dist-tests && testem --file testem.cjs ci --port 0",
-    "prepare": "rollup --config"
+    "prepack": "rollup --config"
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.8.9",
