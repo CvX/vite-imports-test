@@ -2,7 +2,8 @@
   "references": [
     { "path": "apps/vite-app" },
     { "path": "apps/classic-app" },
-    { "path": "apps/legacy-embroider-app" }
+    { "path": "apps/legacy-embroider-app" },
+    { "path": "addons/simple-addon" }
   ],
   "include": []
 }
